@@ -1,0 +1,10 @@
+Basic_salary=float(input("enter salary"))
+TA=basic_salary*0.05
+DA=basic_salary*0.8
+HRA=basic_salary*0.1
+Total_salary=basic_salary+DA+TA+HRA
+print("Overall_sal=",Total_salary)
+Tax=Total_salary*0.02
+print("prof_tax=",Tax) 
+final=Total_salary-Tax
+print("final_salary",final)
